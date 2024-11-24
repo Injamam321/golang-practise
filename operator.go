@@ -56,5 +56,6 @@ func main() {
 
 	fmt.Println(a < c)
 	fmt.Println(a < b)
+	fmt.Println(a > b)
 
 }
