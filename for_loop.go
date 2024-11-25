@@ -38,7 +38,7 @@ package main
 import "fmt"
 
 func main() {
-Loop with break and continue
+//Loop with break and continue
 for i := 1; i <= 10; i++ {
 	if i == 5 {
 		continue // যখন i 5 হবে, তখন পরবর্তী iteration এ চলে যাবে
@@ -76,3 +76,17 @@ func main() {
 		fmt.Printf("Name: %s, Score: %d\n", name, score)
 	}
 }
+
+package main
+
+import "fmt"
+
+func main() {
+    numbers := []int{5, 10, 15}
+
+    fmt.Println("Shudhu value print korchi:")
+    for _, value := range numbers {
+        fmt.Println(value)
+    }
+}
+
