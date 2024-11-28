@@ -17,5 +17,6 @@ func main() {
 }
 func love() {
 	fmt.Println(globalvar)
+
 	//fmt.Println(localvar)
 }
