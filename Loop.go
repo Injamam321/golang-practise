@@ -1,27 +1,28 @@
 // foor loop example
 
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	for i := 1; i <= 5; i++ {
-// 		fmt.Println("Number:", i)
-// 	}
-// }
+func main() {
+	for i := 1; i <= 5; i++ {
+		fmt.Println("Number:", i)
+	}
+}
 
 // Like while loop but its for loop
-// package main
 
-// import "fmt"
+package main
 
-// func main() {
-// 	num := 1
-// 	for num <= 5 {
-// 		fmt.Println("Counting:", num)
-// 		num++
-// 	}
-// }
+import "fmt"
+
+func main() {
+	num := 1
+	for num <= 5 {
+		fmt.Println("Counting:", num)
+		num++
+	}
+}
 
 // Infinite loop
 
